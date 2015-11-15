@@ -1,0 +1,54 @@
+Links:
+Slides:
+http://nicolewhite.github.io/neo4j-presentations/Fundamentals/#/13
+
+Data:
+https://gist.githubusercontent.com/nicolewhite/989d5fe222e874782d05/raw/5dd1190b4a07a006edd4776025d675db0eb1504d/import.txt
+
+
+Nodes: 
+()
+Relationships: 
+[]
+Paths:
+()-[]-()
+()-[]->()
+()<-[]-()
+
+Categories:
+Identifiers:
+node labels assigned to variables (t:Terminal)
+
+Shorthand WHERE:
+the property is that
+for simple queries
+
+Regular Expressions:
+=~ to indicate regular expression
+doesn't use indexes
+
+Starts With Clause:
+uses index on the property
+always use for easy queries
+alternative to regular expressions
+
+Agreegation:
+sum, avg, min, max, count
+
+Relationship Direction:
+Must indicate direction in in relationship when created
+when query relationship is bidirectional 
+
+Optional Match clause:
+how many friends do users have will not return users 
+with 0 friends becuase they do not have that relationship
+like a full outer join it captures users with 0 friends
+
+Q. logical expressions in shorthand? no only and can't do or
+
+T. command up arrow to go up in history
+$MATCH (c:Category) RETURN c.name AS Category
+
+T. control enter to run
+
+T. break match clause with commas if too long

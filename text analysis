@@ -1,0 +1,67 @@
+1) what Language
+pairs of characters
+
+language id:
+create clasifiers
+N-grames
+
+challenges in language id:
+short strings
+documents with multiple langues
+
+git repo: odscwest/02_language_identification.ipynb
+
+ language text analysis
+pip install rosset-api
+lang detect
+
+1) tokenization:
+solar: analyzes text - breakup text to tokens for retrieval later
+store in spaces but what about punctuation abv and lang w.o spaces
+
+normalization:
+stemming: chops words to normalizes them. run or running. what about ran?
+
+not only find tokens but normalizing down to what you want to store.
+tokens are granular building block. different tokens retrieves different results
+
+example:
+alice in wonderland raw text
+vocab in book:
+34 thousand words in total
+26 hundred unique words
+
+frequency distribution in alice in wonderland:
+10 top: and, the..
+most common are not descriptive
+rabbit: appear 51 times
+
+plot all words: long tail
+don't look at most or least often, look at middle freq words like rabbit
+
+look at freq two words:
+said alice
+of course
+
+raw freq distribution counts: 
+concordance will give all places where turtle appear and text around
+
+dispersion plot:
+alice is mentioned through the whole book
+
+signals in text that may be useful.
+
+term frequency
+inverse document freq
+for doc in index what is freq of terms in doc compared to this vs other documents
+-look at the token level
+
+load gutenberg collection:
+term freq/inverse freq
+how often rabbit appears in alice vs whole collection higher
+in context rabbit only appeared 13 times
+
+3)Part of speech:
+only looking at strings not parts of speech.
+
+Information extraction: entities

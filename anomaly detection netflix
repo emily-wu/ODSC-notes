@@ -1,0 +1,37 @@
+Netflix talk
+
+-AWS
+-Hadoop + S3
+- 10x slower latency to write to S3 rather than native HDFS
+
+Data Platform: s3
+500 bill events through kafka -> router -> written to s3
+also data from cassandra->agishus->s3
+pig on hadoop for processing <-> s3
+<->presto is super efficiant for rough queries
+->druid backend data store good for aggregates. rigid schema
+<->spark
+
+anonaly detection:
+RSVD/RPCP
+-paper to read decompose matrix to 3 distinct sets: low rank, e air(noisy), o is outlier/sparse component
+-with matrix x, run computations
+
+steps:
+start with vanilla SVD(single value decomp):
+Threshold singular values decrement by a constant 
+parameter free
+calculate residual
+
+conrrespondence analysis
+ARIMA-> robust realization systems
+
+evaluation:
+stochastic unit tests
+do regression testing
+
+jobs.netflix.com
+ccolburn@netflix.com
+
+check out
+netflix tech blog
