@@ -1,0 +1,87 @@
+Story telling with data
+
+1. understanding context
+2. choose types of commond displays
+3. strip clutter
+4. how people see
+5. telling the story
+
+1. what do people care about:
+-something specific communicat to someone specific
+
+Answer:
+-who is your audience
+-what do you need them to know or do (make recomendation, start conversation)
+-how can we show it, what data do we have
+
+Example:
+how to price a product. 
+
+-who: head of product
+-what: make a recomendation 
+-how: shows what average price of competitors over time
+
+2. Different types of visuals:
+-create ah ha moment
+
+1-3 numbers:
+communicate using numbers dirrectly: write them out
+
+Tables or graphs:
+Tables are read: many data elements
+
+graphs are visual: processed faster
+
+Scatterplot: individual elements, outliers
+Line graph: time line
+slopegraph: two points in time shows slope, rate of change
+barchart: categorical data
+horizontal text is best!
+try horizontal bar chart
+preserve axis or label directly ( shape= leave axis) (size value = but labels in bar)
+pie chart: when pieces are very big or little is good, when pieces are not that different don't use
+Never use 3d! human eye has trouble ascribing value to 3 dementional space
+
+improved pie chart: take away color, lable values to wedges and catecories
+used horrizontal barchart is much more clear, use % of total inside bar
+
+3. Strip unneccessary information
+
+Prices has declined for all products has declined
+Take away colors for dinnerent years
+from time on, use two colors before and after 
+use mini line graph whith two pointts to show slope
+line graph
+
+clutter:
+gestalt principles of visual perception: how is order shown
+proximity, things closer together as related
+Similarity: same shapes are related
+enclosure: background shadding, set a part
+closure: circle take away heavy borders shading
+continuity: taken out y axis is gone but eye still sees it
+
+connection: line graphs rather than scatter
+
+easy to spot a hawk in a sky full of pigeons
+as veriety of birds increase hawk is harder to see
+-leveraging contrast
+
+Doorbusters: in selection, convenience, relationship, price comparied to competitors
+
+horizontal bar graph highlight our bar with position labeled #3 #5 compared to competition
+separate graphs for categories
+
+get rid of every data marker, use for beginning and end instead, 
+take out trailing zeros on y axis
+take out y axis and grid lines
+get rid of diagonal text
+don't want to go between ledgend and data
+
+but data labels next to the lines and same color - eases the eye
+
+4. Focus audience's attention
+-light simulation
+-iconic memory: super short term fractions of a second
+-tuned into preattentive attributes:
+
